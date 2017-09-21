@@ -1,0 +1,16 @@
+FROM node:6.2.1
+
+# Workaround for CROSS LINK ERROR:  https://github.com/npm/npm/issues/9863
+RUN cd $(npm root -g)/npm \
+  && npm install fs-extra \
+  && sed -i -e s/graceful-fs/fs-extra/ -e s/fs.rename/fs.move/ ./lib/utils/rename.js
+
+# # Create directory for build
+# RUN mkdir /build
+# WORKDIR /build
+
+# Build Process
+# COPY . .
+RUN id
+RUN npm install
+RUN npm run build
