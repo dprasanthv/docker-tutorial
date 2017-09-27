@@ -21,7 +21,9 @@
 
 * -name names the container.
 
-*  docker run -d -p 8000:8888 --name pp3 pp:3 for running the container from the image
+*  docker run -d -p 8000:8888 --name pp3 pp:3 for running the container in background. (no logs)
+
+* docker run -i -p 8000:8888 --name pp3 pp:3 for running the container in foreground (gives logs).
 
 * docker logs pp3 for logs of the container.
 
