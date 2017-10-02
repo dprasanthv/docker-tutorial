@@ -34,3 +34,9 @@
 * docker stop <containerId/ Name> -- Stops running container.
 
 * docker rm <containerId / Name> -- removes the docker container.
+
+# Copy files from/to docker container to/from host machine
+
+* docker cp foo.txt mycontainer:/foo.txt  
+
+* docker cp mycontainer:/foo.txt foo.txt 
