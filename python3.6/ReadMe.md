@@ -29,6 +29,8 @@
 
 * docker container ps -a  -- gives list of docker container which are running.
 
+* docker start <containerId/ Name>  -- Starts existing container
+
 * docker stop <containerId/ Name> -- Stops running container.
 
 * docker rm <containerId / Name> -- removes the docker container.
