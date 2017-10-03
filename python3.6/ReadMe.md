@@ -40,3 +40,11 @@
 * docker cp foo.txt mycontainer:/foo.txt  
 
 * docker cp mycontainer:/foo.txt foo.txt 
+
+# Run Commands in Docker Container
+
+* -i is interactive terminal.
+
+* -d is background task.
+
+* docker exec -i pp3 git -version
