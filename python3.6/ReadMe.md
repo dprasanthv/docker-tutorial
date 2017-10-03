@@ -41,10 +41,14 @@
 
 * docker cp mycontainer:/foo.txt foo.txt 
 
-# Run Commands in Docker Container
+# Run Commands in Docker Container without Bash
 
 * -i is interactive terminal.
 
 * -d is background task.
 
 * docker exec -i pp3 git --version
+
+# Access Docker Container Bash
+
+* docker exec -it pp3 bash
