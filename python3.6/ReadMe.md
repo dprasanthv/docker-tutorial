@@ -47,4 +47,4 @@
 
 * -d is background task.
 
-* docker exec -i pp3 git -version
+* docker exec -i pp3 git --version
