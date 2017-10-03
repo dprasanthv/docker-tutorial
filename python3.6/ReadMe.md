@@ -49,6 +49,6 @@
 
 * docker exec -i pp3 git --version
 
-# Access Docker Container Bash
+# Run Commands in Docker Container with Bash
 
 * docker exec -it pp3 bash
