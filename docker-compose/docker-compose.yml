@@ -1,0 +1,14 @@
+version: "2"
+services:
+  p2:
+    build: p2
+    ports:
+      - "8000:8888"
+    image: p2
+    container_name: p2
+  p3:
+    build: p3
+    ports:
+      - "8001:8888"
+    image: p3
+    container_name: p3
