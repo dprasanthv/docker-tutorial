@@ -49,6 +49,14 @@
 
 * docker exec -i pp3 git --version
 
+
 # Run Commands in Docker Container with Bash
 
 * docker exec -it pp3 bash
+
+
+# Remove/stop all docker containers
+
+* docker stop $(docker ps -a -q)
+
+* docker rm $(docker ps -a -q)
