@@ -26,4 +26,4 @@ gt-md	'screen and (min-width: 1280px)'
 gt-lg	'screen and (min-width: 1920px)'
 
 
-fxLayoutAlign="start" start end middle
+fxLayoutAlign="start" -start, "center center" - center,  middle
