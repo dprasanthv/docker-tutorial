@@ -11,6 +11,8 @@
 * docker images -- List of all docker images.
 
 * docker rmi <ImageId> -- Removes docker image. (ImageId can be first 2 characters of ID)
+  
+* docker run -it <image> /bin/bash -- for bash access into docker image
 
 
 ## Running a Docker Container from a Docker Image
