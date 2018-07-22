@@ -65,5 +65,5 @@
 
 # Remove all docker Images
 
-docker rmi $(docker images -q)
+* docker rmi $(docker images -q)
 
