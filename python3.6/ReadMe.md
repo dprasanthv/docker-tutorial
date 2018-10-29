@@ -67,3 +67,7 @@
 
 * docker rmi $(docker images -q)
 
+docker ps -aq --no-trunc -f status=exited | xargs --no-run-if-empty docker rm
+
+docker images --quiet --filter=dangling=true | xargs --no-run-if-empty docker rmi
+
